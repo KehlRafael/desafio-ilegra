@@ -9,14 +9,14 @@ output.
 There are 3 kinds of data inside those files. For each kind of data there is a different layout.
 
 Salesman data has the format id 001 and the line will have the following format:
-• 001çCPFçNameçSalary
+- 001çCPFçNameçSalary
 
 Customer data has the format id 002 and the line will have the following format:
-• 002çCNPJçNameçBusiness Area
+- 002çCNPJçNameçBusiness Area
 
 Sales data has the format id 003. Inside the sales row, there is the list of items, which is
 wrapped by square brackets []. The line will have the following format:
-• 003çSale IDç[Item ID-Item Quantity-Item Price]çSalesman name
+- 003çSale IDç[Item ID-Item Quantity-Item Price]çSalesman name
 
 ## Sample file data
 The following is a sample of the data that the application should be able to read. Note that this is a
@@ -38,10 +38,10 @@ pattern:
 {flat_file_name}.done.dat
 
 The output file contents should summarize the following data:
-• Amount of clients in the input file
-• Amount of salesman in the input file
-• ID of the most expensive sale
-• Worst salesman ever
+- Amount of clients in the input file
+- Amount of salesman in the input file
+- ID of the most expensive sale
+- Worst salesman ever
 This application should be running all the time, without any breaks. Everytime new files become
 available, everything should be executed.
 
